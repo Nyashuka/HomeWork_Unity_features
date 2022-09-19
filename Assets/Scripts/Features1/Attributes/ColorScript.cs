@@ -5,8 +5,7 @@ namespace Scripts.Features1.Attributes
 {
     [ExecuteInEditMode]
     public class ColorScript : MonoBehaviour
-    {
-        
+    {       
         [SerializeField] private Color _color;
 
         private void Start()
